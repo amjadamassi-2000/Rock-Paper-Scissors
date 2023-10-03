@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Rock-Paper-Scissors</h1>
+        
+    </header>
+
+
+    <div class="mainContainer">
+        <div class="resultContain">
+            <h1 id="resultText"></h1>
+            <div id="resultImage"></div>
+        </div>
+        <div class="overlay"></div>
+
+        <div id="gameContent">
+
+            <div class="player">
+                <h1 class="gameText" id="playerText">You</h1>
+                <div id="playerHand">
+                    <span style='font-size:130px;'>&#9994;</span>
+                </div>
+            </div>
+
+
+            <div class="player">
+                <h1 class="gameText" id="playerText">Vs.</h1>
+                
+            </div>
+        
+
+
+            <div class="computer">
+                <h1 class="gameText" id="computerText">Computer</h1>
+                <div id="compHand">
+                    <span style='font-size:130px;'>&#9994;</span>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="choiceBox">
+            <h2>Play : </h2>
+            <div id="btns">
+                <button class="choiceBtn">
+                    <span class="hand" style='font-size:40px;'>&#9994;</span>
+                    <span class="btnText">ROCK</span>
+                </button>
+                <button class="choiceBtn">
+                    <span class="hand" style='font-size:40px;'>&#9995;</span>
+                    <span class="btnText">PAPER</span>
+                </button>
+                <button class="choiceBtn">
+                    <span class="hand" style='font-size:40px;'>&#9996;</span>
+                    <span class="btnText">SCISSORS</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
